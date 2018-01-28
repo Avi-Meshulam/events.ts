@@ -1,6 +1,6 @@
 # events.ts
 
-## Implementing events mechanism, within a publisher-subscriber pattern, using an RxJS Subject.
+## Implementing an events-mechanism, within a publisher-subscriber pattern, using RxJS
 
 ### The Publisher Class
 ```javascript
@@ -111,3 +111,8 @@ export interface INotifyPropertyChanged {
     propertyChanged: Observable<PropertyChangedEventArgs>;
 }
 ```
+
+#### For a more concrete implementation, check out my [flight-control](https://github.com/PrisonerM13/flight-control) project:
++ [flight.ts](https://github.com/PrisonerM13/flight-control/blob/master/control-tower/src/app/models/flight.ts)
++ [leg.ts](https://github.com/PrisonerM13/flight-control/blob/master/control-tower/src/app/models/leg.ts)
++ [control-tower.component.ts](https://github.com/PrisonerM13/flight-control/blob/master/control-tower/src/app/components/control-tower/control-tower.component.ts#L771)
