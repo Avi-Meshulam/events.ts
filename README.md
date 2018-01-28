@@ -1,8 +1,8 @@
 # events.ts
 ## Implementing events in Typescript with RxJS
-## A publisher-subscriber example
+### A publisher-subscriber example
 
-### The Publisher Class
+#### The Publisher Class
 ```javascript
 import { Observable } from 'rxjs/Observable';
 import { Subject } from 'rxjs/Subject';
@@ -51,7 +51,7 @@ export class Publisher implements INotifyPropertyChanged {
 }
 ```
 
-### The Subscriber Class
+#### The Subscriber Class
 ```javascript
 import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
@@ -90,7 +90,7 @@ export class Subscriber {
 }
 ```
 
-### Interface & Base Classes
+#### Interface & Base Classes
 ```javascript
 import { Observable } from 'rxjs/Observable';
 
