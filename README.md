@@ -1,6 +1,6 @@
 # events.ts
-
-## Implementing an events-mechanism, within a publisher-subscriber pattern, using RxJS
+## Implementing events in Typescript with RxJS
+## A publisher-subscriber example
 
 ### The Publisher Class
 ```javascript
