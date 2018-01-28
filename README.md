@@ -1,6 +1,6 @@
 # events.ts
 
-## Using an RxJS Subject to implement events within a publisher-subscriber pattern.
+## Implementing events mechanism, within a publisher-subscriber pattern, using an RxJS Subject.
 
 ### The Publisher Class
 ```javascript
